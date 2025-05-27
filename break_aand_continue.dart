@@ -79,6 +79,7 @@ void main() {
     print(i); // it skips the iteration of 2
   }
 
+
   // while with continue
   i = 1 ;
   while(i <= 5){
@@ -89,6 +90,7 @@ void main() {
     print(i);
     i++;
   }
+
 
   // do while with continue
   i = 1 ;
@@ -102,5 +104,36 @@ void main() {
   } while(i <= 5);
 
 
+  // now reverse
+
+  // for
+  for (i = 5; i >= 1; i--) {
+    if (i == 3) {
+      continue;
+    }
+    print(i);
+  }
+
+  // while
+  i = 5;
+  while(i >= 1){
+    if(i==1){
+      i--;
+      continue;
+    }
+    print(i);
+    i--;
+  }
+
+  // do while
+  i= 5;
+  do{
+    if(i == 3){
+      i--;
+      continue;
+    }
+    print(i);
+    i--;
+  } while(i >= 1);
 
 }
