@@ -13,7 +13,7 @@ void main() {
   print(num1 + num2);
   print(num1 - num2);
   print(num1 * num2);
-  print(-num1);
+  print( -num1 );
   print(num1 / num2);
   print(num1 % num2);  // remainder
 
@@ -87,6 +87,26 @@ void main() {
   print(age);
 
 
+  // relational operator
+
+  // less than
+  // greater than
+  // less-than equal-to
+  // greater-than equal-to
+  // equal-to equal-to
+  // not equal-to
+
+
+  // Logical operator
+
+  // and ( && )
+
+  // or ( || )
+
+  // not ( ! )
+
+
+  // type test operator
 
 
 
