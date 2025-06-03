@@ -56,12 +56,11 @@ void main() {
   print(x);
   print(y);
 
-
   print('\n');
+
 
   // Assignment operator
   num age = 10 ;
-
 
   // equal to
   age = 26 ;
@@ -86,28 +85,55 @@ void main() {
   // age /= 2 ;
   print(age);
 
+  print('\n');
+
 
   // relational operator
 
+  int a = 10 ;
+  int b = 11 ;
+
   // less than
+  print(a < b);
+
   // greater than
+  print(a > b);
+
   // less-than equal-to
+  print(a >= b);
+
   // greater-than equal-to
+  print(a <= b);
+
   // equal-to equal-to
+  print(a == b);
+
   // not equal-to
+  print(a != b);
+
+  print('\n');
 
 
   // Logical operator
 
-  // and ( && )
+  // and ( && )  // both need true
+  print(a < b && a > b);
 
-  // or ( || )
+  // or ( || )   // any one need true
+  print(a < b || a > b);
 
-  // not ( ! )
+  // not ( ! )   // not
+
+  print('\n');
 
 
   // type test operator
 
+  // is
+  print(a is int);
+
+  // is!
+  print( a is! int );
 
 
 
