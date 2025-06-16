@@ -66,5 +66,5 @@ void main() {
 
 
   AreaCircle areaOfCircle = AreaCircle() ;
-  print("The area of cirle is ${areaOfCircle.calculateArea().toStringAsFixed(2)}");  // 94.98 against 94.985
+  print("The area of circle is ${areaOfCircle.calculateArea().toStringAsFixed(2)}");  // 94.98 against 94.985
 }
