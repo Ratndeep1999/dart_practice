@@ -38,9 +38,19 @@ class Book{
     print('Author name : $author');
     print('Price : $price');
   }
-
-
 }
+
+
+// area of circle class
+class AreaCircle{
+  double? radius = 5.5 ;
+
+  double calculateArea(){
+    return 3.14 * radius! * radius! ;
+  }
+}
+
+
 
 void main() {
   Area area = Area();
@@ -53,4 +63,8 @@ void main() {
 
   Book book = Book() ;
   book.display();
+
+
+  AreaCircle areaOfCircle = AreaCircle() ;
+  print("The area of cirle is ${areaOfCircle.calculateArea().toStringAsFixed(2)}");  // 94.98 against 94.985
 }
