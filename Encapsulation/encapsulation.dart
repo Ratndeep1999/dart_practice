@@ -37,4 +37,12 @@ class Bank {
     }
   }
 
+  set balance (double balance) {
+    if (this._balance < 0.0) {
+      print('No Balance Available');
+    } else {
+      this._balance = balance ;
+    }
+  }
+
 }
