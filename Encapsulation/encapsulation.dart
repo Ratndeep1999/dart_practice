@@ -20,6 +20,14 @@ class Bank {
     return this._balance ;
   }
 
+  // setter to update the values of private properties
+  set accountHolderName (String accountHolderName) {
+    if (this._accountHolderName == "") {
+      print('No Name');
+    } else {
+      this._accountHolderName = accountHolderName ;
+    }
 
+  }
 
 }
