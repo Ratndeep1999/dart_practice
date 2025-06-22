@@ -27,7 +27,14 @@ class Bank {
     } else {
       this._accountHolderName = accountHolderName ;
     }
+  }
 
+  set accountNumber (dynamic accountNumber) {
+    if (this._accountNumber == "") {
+      print('N/A');
+    } else {
+      this._accountNumber = accountNumber ;
+    }
   }
 
 }
