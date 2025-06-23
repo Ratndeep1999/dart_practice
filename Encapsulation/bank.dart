@@ -15,7 +15,7 @@ class Bank {
 
   // get for accountNumber
   int? get accountNumber {
-    return this.accountNumber ;
+    return this._accountNumber ;
   }
 
   // get for balance
@@ -27,8 +27,8 @@ class Bank {
 
   // set for accountHolderName
   set accountHolderName (String? accountHolderName) {
-    if (this._accountHolderName == "") {
-      print('No Name');
+    if (this._accountHolderName == '') {
+      throw ('No given name..!');
     } else {
       this._accountHolderName = accountHolderName ;
     }
@@ -36,8 +36,8 @@ class Bank {
 
   // set for accountNumber
   set accountNumber (dynamic accountNumber) {
-    if (this._accountNumber == "") {
-      print('N/A');
+    if (this._accountNumber == '') {
+      throw ('No given name..!');
     } else {
       this._accountNumber = accountNumber ;
     }
@@ -61,7 +61,7 @@ class Bank {
   // Withdrawal method
   void Withdrawal (double amount) {
     if ( _balance <= amount ) {
-      print('No Balance Available !');
+      throw ('No Available Balance...!');
     } else {
       _balance -= amount ;
     }
