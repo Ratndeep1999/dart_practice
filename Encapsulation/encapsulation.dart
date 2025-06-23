@@ -8,20 +8,26 @@ class Bank {
 
 
   // getter to access the values private properties
+
+  // get for accountHolderName
   String? get accountHolderName {
    return this._accountHolderName ;
   }
 
+  // get for accountNumber
   int? get accountNumber {
     return this.accountNumber ;
   }
 
+  // get for balance
   double get balance {
     return this._balance ;
   }
 
   // setter to update the values of private properties
-  set accountHolderName (String accountHolderName) {
+
+  // set for accountHolderName
+  set accountHolderName (String? accountHolderName) {
     if (this._accountHolderName == "") {
       print('No Name');
     } else {
@@ -29,6 +35,7 @@ class Bank {
     }
   }
 
+  // set for accountNumber
   set accountNumber (dynamic accountNumber) {
     if (this._accountNumber == "") {
       print('N/A');
@@ -37,9 +44,10 @@ class Bank {
     }
   }
 
+  // set for balance
   set balance (double balance) {
-    if (this._balance < 0.0) {
-      print('No Balance Available');
+    if (this._balance <= 0.0) {
+      this._balance = 0.0 ;
     } else {
       this._balance = balance ;
     }
