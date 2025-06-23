@@ -53,4 +53,19 @@ class Bank {
     }
   }
 
+  // Deposit method
+  void Deposit (double amount) {
+    _balance = _balance + amount ;
+  }
+
+
+  // Withdrawal method
+  void Withdrawal (double amount) {
+    if ( _balance <= amount ) {
+      print('No Balance Available !');
+    } else {
+      _balance -= amount ;
+    }
+  }
+
 }
