@@ -6,7 +6,6 @@ class Bank {
   int? _accountNumber ;
   double _balance = 0.00 ;
 
-
   // getter to access the values private properties
 
   // get for accountHolderName
