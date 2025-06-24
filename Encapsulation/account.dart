@@ -13,11 +13,7 @@ void main() {
   // Try and catch to fetch validation
   try {
 
-     // myAccount.accountHolderName = null ;
-     myAccount.accountHolderName = 'Ratndeep Chandankhede' ;
 
-     // myAccount.accountNumber = null ;
-     myAccount.accountNumber = 294001000021273 ;
 
     print('Account Holder Name : ${myAccount.accountHolderName}');
     print('Account Number : ${myAccount.accountNumber}');
