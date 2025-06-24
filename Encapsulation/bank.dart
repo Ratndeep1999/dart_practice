@@ -57,7 +57,6 @@ class Bank {
     _balance = _balance + amount ;
   }
 
-
   // Withdrawal method
   void Withdrawal (double amount) {
     if ( _balance <= amount ) {
