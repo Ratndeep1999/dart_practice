@@ -26,8 +26,8 @@ class Bank {
   // setter to update the values of private properties
 
   // set for accountHolderName
-  set accountHolderName (String? accountHolderName) {
-    if (this._accountHolderName == '') {
+  set accountHolderName (dynamic accountHolderName) {
+    if ( accountHolderName == null ) {
       throw ('No given name..!');
     } else {
       this._accountHolderName = accountHolderName ;
@@ -36,8 +36,8 @@ class Bank {
 
   // set for accountNumber
   set accountNumber (dynamic accountNumber) {
-    if (this._accountNumber == '') {
-      throw ('No given name..!');
+    if ( accountNumber == null ) {
+      throw ('Invalid Account Number..!');
     } else {
       this._accountNumber = accountNumber ;
     }
