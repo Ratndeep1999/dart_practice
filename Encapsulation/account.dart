@@ -31,6 +31,11 @@ void main() {
     myAccount.Withdrawal(1);
     print('Available Balance : ${myAccount.balance}');
 
+
+     // myAccount.Deposit(300.00);
+     // print('Available Balance : ${myAccount.balance}');
+
+
   } catch (e) {
     print('Error : $e');
   }

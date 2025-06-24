@@ -60,7 +60,8 @@ class Bank {
   // Withdrawal method
   void Withdrawal (double amount) {
     if ( _balance <= amount ) {
-      throw ('No Available Balance...!');
+      _balance -= amount ;
+      throw('Balance : $_balance    Balance Not Available...!');
     } else {
       _balance -= amount ;
     }
