@@ -32,7 +32,7 @@ void main() {
     print('Available Balance : ${myAccount.balance}');
 
   } catch (e) {
-    print('$e');
+    print('Error : $e');
   }
 
 }
