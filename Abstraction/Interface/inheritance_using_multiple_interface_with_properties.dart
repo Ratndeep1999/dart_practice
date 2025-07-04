@@ -25,7 +25,7 @@ interface class Percentage {
 // implement above interfaces
 class Result implements TotalMarks, Grade, Percentage {
 
-  Map<String, int?> marks = {
+  Map<String, int> marks = {
     'English' : 98,
     'Maths' : 90,
     'General science' : 96,
