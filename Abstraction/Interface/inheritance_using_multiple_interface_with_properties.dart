@@ -14,3 +14,7 @@ interface class Percentage {
   void percentage() { }
 }
 
+interface class Grade {
+
+  void grade() {}
+}
