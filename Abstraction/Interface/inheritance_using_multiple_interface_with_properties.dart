@@ -20,3 +20,21 @@ interface class Percentage {
 
   void percentage() {}
 }
+
+class Result implements TotalMarks, Grade, Percentage {
+  @override
+  void grade() {
+    // TODO: implement grade
+  }
+
+  @override
+  void percentage() {
+    // TODO: implement percentage
+  }
+
+  @override
+  void totalMarks() {
+    // TODO: implement totalMarks
+  }
+
+}
