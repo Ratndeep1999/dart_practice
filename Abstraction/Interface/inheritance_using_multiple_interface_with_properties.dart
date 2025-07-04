@@ -36,12 +36,21 @@ class Result implements TotalMarks, Grade, Percentage {
 
   @override
   void grade() {
-    // TODO: implement grade
+    int totalMarks = this.totalMarks() ;
+
+    if( totalMarks <= 500 && totalMarks > 450 ) {
+      print('Grade : A');
+      print('Congratulations...!');
+    } else if (totalMarks <= 450 && totalMarks > 429 ) {
+      print('Grade : A');
+      print('Super...!');
+    }
+
   }
 
   @override
-  void percentage() {
-    print('Percentage : ${this.totalMarks()  * 100 / 500}');
+  double percentage() {
+    return this.totalMarks() * 100 / 500 ;
   }
 
   @override
@@ -56,7 +65,7 @@ class Result implements TotalMarks, Grade, Percentage {
     print('Maths : ${marks['Maths']} / 100');
     print('General science : ${marks['General science']} / 100');
     print('Marathi : ${marks['Marathi']} / 100');
-    print('Social science : ${marks['Social science']} / 100');
+    print('Social science : ${marks['Social science']} / 100\n');
     print('Total marks : ${this.totalMarks()} / 500');
   }
 
