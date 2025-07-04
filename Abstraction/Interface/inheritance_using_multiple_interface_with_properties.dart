@@ -89,10 +89,10 @@ class Student extends Result {
   String name ;
   int age ;
   int std ;
-  static String schoolName = 'Sonali School' ;
+  static String schoolName = 'Ambedkar School' ;
 
   // constructor
-  Student(this.name, this.age, this.std );
+  Student(this.name, this.age, this.std ) : super() ;
 
   void studentDetails() {
     print('Student Details');
@@ -102,7 +102,7 @@ class Student extends Result {
     print('STD : $std');
   }
 
-  void studentResult() {
+  void result() {
     this.studentDetails();
     this.obtainedMarks();
   }
@@ -112,7 +112,11 @@ class Student extends Result {
 void main() {
 
   // Object of result
-  Result result = Result();
-  result.obtainedMarks();
+  // Result result = Result();
+  // result.obtainedMarks();
+
+  // object of Student
+  Student sonali = Student('Sonali', 23, 10);
+  sonali.result();
 
 }
