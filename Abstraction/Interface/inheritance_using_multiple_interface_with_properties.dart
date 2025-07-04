@@ -31,7 +31,7 @@ class Performance implements TotalMarks, Percentage, Grade {
     'Social science' : 55
   };
 
-  Performance(this.marks);
+  // Performance(this.marks);
 
   @override
   void grade() {
@@ -46,16 +46,21 @@ class Performance implements TotalMarks, Percentage, Grade {
   @override
   void totalMarks() {
     print('Obtained Marks :');
-    print('English : ${['English']}');
-    print('Maths : ${['Maths']}');
-    print('Science : ${['Science']}');
-    print('Marathi : ${['Marathi']}');
-    print('Social science : ${['Social science']}');
-    print('Total marks : ${['English'] + ['Maths'] + ['Science'] + ['Marathi'] + ['Social science']} ');
+    print('English : ${marks['English']}');
+    print('Maths : ${marks['Maths']}');
+    print('Science : ${marks['Science']}');
+    print('Marathi : ${marks['Marathi']}');
+    print('Social science : ${marks['Social science']}');
+    print('Total marks : ${marks['English']! + marks['Maths']! + marks['Science']!
+        + marks['Marathi']! + marks['Social science']! } ');
   }
 
 }
 
 void main() {
 
+  // object of Performance
+  Performance performance = Performance();
+
+  performance.totalMarks();
 }
