@@ -55,8 +55,7 @@ class Performance implements TotalMarks, Percentage, Grade {
     print('Science : ${marks['Science']} / 100');
     print('Marathi : ${marks['Marathi']} / 100');
     print('Social science : ${marks['Social science']} / 100');
-    print('Total marks : ${marks['English']! + marks['Maths']! + marks['Science']!
-        + marks['Marathi']! + marks['Social science']! } / 500');
+    print('Total marks : ${totalMarks()} / 500');
   }
 
 }
