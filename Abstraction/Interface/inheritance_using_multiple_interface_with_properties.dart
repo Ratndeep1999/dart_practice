@@ -57,10 +57,6 @@ class Result implements TotalMarks, Grade, Percentage {
     } else if (totalMarks == 00 ) {
       print('Exam Not Attempt...!');
     }
-    else if (totalMarks == null ) {
-       Exception('Try again....! Marks not Taken');
-    }
-
   }
 
   @override
@@ -90,6 +86,14 @@ class Result implements TotalMarks, Grade, Percentage {
 
 // student class add
 class Student extends Result {
+  String name ;
+  int age ;
+  int std ;
+  static String schoolName = 'Sonali School' ;
+
+  // constructor
+  Student(this.name, this.age, this.std );
+
 
 }
 
@@ -97,9 +101,6 @@ void main() {
 
   // Object of result
   Result result = Result();
-  try{
-    result.obtainedMarks();
-  } catch (e) {
-    print('$e');
-  }
+  result.obtainedMarks();
+
 }
