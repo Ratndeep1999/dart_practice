@@ -21,7 +21,19 @@ interface class Percentage {
   void percentage() {}
 }
 
+
+// implement above interfaces
 class Result implements TotalMarks, Grade, Percentage {
+
+  Map<String, int> marks = {
+    'English' : 68,
+    'Maths' : 55,
+    'General science' : 76,
+    'Marathi' : 80,
+    'Social science' : 60,
+  };
+
+
   @override
   void grade() {
     // TODO: implement grade
