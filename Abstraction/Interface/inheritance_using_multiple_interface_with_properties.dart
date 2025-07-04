@@ -41,7 +41,7 @@ class Result implements TotalMarks, Grade, Percentage {
 
   @override
   void percentage() {
-    // TODO: implement percentage
+    print('Percentage : ${this.totalMarks()  * 100 / 500}');
   }
 
   @override
