@@ -25,12 +25,12 @@ interface class Percentage {
 // implement above interfaces
 class Result implements TotalMarks, Grade, Percentage {
 
-  Map<String, int> marks = {
-    'English' : 68,
-    'Maths' : 55,
-    'General science' : 76,
+  Map<String, int?> marks = {
+    'English' : 98,
+    'Maths' : 90,
+    'General science' : 96,
     'Marathi' : 80,
-    'Social science' : 60,
+    'Social science' : 90,
   };
 
 
@@ -38,12 +38,27 @@ class Result implements TotalMarks, Grade, Percentage {
   void grade() {
     int totalMarks = this.totalMarks() ;
 
-    if( totalMarks <= 500 && totalMarks > 450 ) {
-      print('Grade : A');
-      print('Congratulations...!');
-    } else if (totalMarks <= 450 && totalMarks > 429 ) {
-      print('Grade : A');
-      print('Super...!');
+    if ( totalMarks <= 500 && totalMarks > 430 ) {
+
+      if( totalMarks <= 500 && totalMarks > 450 ) {
+        print('Grade : A  Excellent...!');
+        print('Congratulations...!');
+      } else if (totalMarks <= 450 && totalMarks > 429 ) {
+        print('Grade : A');
+        print('Super...!');
+      }
+
+    } else if ( totalMarks <= 429 && totalMarks > 300 ) {
+      print('Grade : B  Good...!');
+    } else if (totalMarks <= 299 && totalMarks > 200 ) {
+      print('Grade : C  Not Bad...!');
+    } else if (totalMarks <= 199 && totalMarks > 01) {
+      print('Grade : D  Fail...Welcome to same Class!');
+    } else if (totalMarks == 00 ) {
+      print('Exam Not Attempt...!');
+    }
+    else if (totalMarks == null ) {
+       Exception('Try again....! Marks not Taken');
     }
 
   }
@@ -67,7 +82,19 @@ class Result implements TotalMarks, Grade, Percentage {
     print('Marathi : ${marks['Marathi']} / 100');
     print('Social science : ${marks['Social science']} / 100\n');
     print('Total marks : ${this.totalMarks()} / 500');
+    print('Percentage : ${this.percentage()}');
+    this.grade();
   }
 
+}
 
+void main() {
+
+  // Object of result
+  Result result = Result();
+  try{
+    result.obtainedMarks();
+  } catch (e) {
+    print('$e');
+  }
 }
