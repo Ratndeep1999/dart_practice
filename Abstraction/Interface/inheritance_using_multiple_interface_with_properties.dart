@@ -94,6 +94,15 @@ class Student extends Result {
   // constructor
   Student(this.name, this.age, this.std );
 
+  void studentDetails() {
+    print('Student Details');
+    print('School Name : $schoolName');
+    print('Name : $name');
+    print('Age : $age');
+    print('STD : $std');
+  }
+
+
 
 }
 
