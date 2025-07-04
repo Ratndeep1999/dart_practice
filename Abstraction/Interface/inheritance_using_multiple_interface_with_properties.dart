@@ -45,8 +45,20 @@ class Result implements TotalMarks, Grade, Percentage {
   }
 
   @override
-  void totalMarks() {
-    // TODO: implement totalMarks
+  int totalMarks() {
+    return marks['English']! + marks['Maths']! + marks['General science']! +
+    marks['Marathi']! + marks['Social science']! ;
   }
+
+  void obtainedMarks() {
+    print('\nObtained Marks....');
+    print('English : ${marks['English']} / 100');
+    print('Maths : ${marks['Maths']} / 100');
+    print('General science : ${marks['General science']} / 100');
+    print('Marathi : ${marks['Marathi']} / 100');
+    print('Social science : ${marks['Social science']} / 100');
+    print('Total marks : ${this.totalMarks()} / 500');
+  }
+
 
 }
