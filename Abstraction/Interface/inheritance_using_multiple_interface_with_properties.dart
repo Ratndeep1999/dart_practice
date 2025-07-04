@@ -102,7 +102,10 @@ class Student extends Result {
     print('STD : $std');
   }
 
-
+  void studentResult() {
+    this.studentDetails();
+    this.obtainedMarks();
+  }
 
 }
 
