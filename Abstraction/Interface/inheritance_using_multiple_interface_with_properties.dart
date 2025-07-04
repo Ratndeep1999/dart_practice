@@ -26,7 +26,9 @@ class Performance implements TotalMarks, Percentage, Grade {
   Map<String, int> marks = {
     'English' : 70,
     'Maths' : 55,
-    'Science' : 78
+    'Science' : 78,
+    'Marathi' : 80,
+    'Social science' : 55
   };
 
   Performance(this.marks);
@@ -43,7 +45,13 @@ class Performance implements TotalMarks, Percentage, Grade {
 
   @override
   void totalMarks() {
-    // TODO: implement totalMarks
+    print('Obtained Marks :');
+    print('English : ${['English']}');
+    print('Maths : ${['Maths']}');
+    print('Science : ${['Science']}');
+    print('Marathi : ${['Marathi']}');
+    print('Social science : ${['Social science']}');
+    print('Total marks : ${['English'] + ['Maths'] + ['Science'] + ['Marathi'] + ['Social science']} ');
   }
 
 }
