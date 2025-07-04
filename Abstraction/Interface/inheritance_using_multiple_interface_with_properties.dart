@@ -9,3 +9,8 @@ interface class TotalMarks {
   void totalMarks() { }
 }
 
+interface class Percentage {
+
+  void percentage() { }
+}
+
