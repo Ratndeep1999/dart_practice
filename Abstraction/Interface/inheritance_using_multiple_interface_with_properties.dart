@@ -88,6 +88,11 @@ class Result implements TotalMarks, Grade, Percentage {
 
 }
 
+// student class add
+class Student extends Result {
+
+}
+
 void main() {
 
   // Object of result
