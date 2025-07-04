@@ -49,13 +49,13 @@ class Performance implements TotalMarks, Percentage, Grade {
   }
 
   void obtainedMarks() {
-    print('Obtained Marks :');
+    print('\nObtained Marks :');
     print('English : ${marks['English']} / 100');
     print('Maths : ${marks['Maths']} / 100');
     print('Science : ${marks['Science']} / 100');
     print('Marathi : ${marks['Marathi']} / 100');
     print('Social science : ${marks['Social science']} / 100');
-    print('Total marks : ${this.totalMarks()} / 500');
+    print('Total marks : ${this.totalMarks()} / 500\n');
   }
 
 }
