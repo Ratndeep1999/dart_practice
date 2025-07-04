@@ -40,19 +40,23 @@ class Performance implements TotalMarks, Percentage, Grade {
 
   @override
   void percentage() {
-    // TODO: implement percentage
+    // print('Percentage : ${}');
   }
 
   @override
-  void totalMarks() {
+  int totalMarks() {
+    return marks['English']! + marks['Maths']! + marks['Science']! + marks['Marathi']! + marks['Social science']! ;
+  }
+
+  void obtainedMarks() {
     print('Obtained Marks :');
-    print('English : ${marks['English']}');
-    print('Maths : ${marks['Maths']}');
-    print('Science : ${marks['Science']}');
-    print('Marathi : ${marks['Marathi']}');
-    print('Social science : ${marks['Social science']}');
+    print('English : ${marks['English']} / 100');
+    print('Maths : ${marks['Maths']} / 100');
+    print('Science : ${marks['Science']} / 100');
+    print('Marathi : ${marks['Marathi']} / 100');
+    print('Social science : ${marks['Social science']} / 100');
     print('Total marks : ${marks['English']! + marks['Maths']! + marks['Science']!
-        + marks['Marathi']! + marks['Social science']! } ');
+        + marks['Marathi']! + marks['Social science']! } / 500');
   }
 
 }
