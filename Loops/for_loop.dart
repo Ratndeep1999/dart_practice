@@ -4,11 +4,12 @@
 
 void main(){
 
-
-
    // for loop
-  for ( int i = 0 ; i <= 10 ; i++ ) {
-    print("$i");
+  for ( int f = 0 ; f <= 10 ; f++ ) {
+    print("$f");
   }
+
+  // while
+  // w =
 
 }
