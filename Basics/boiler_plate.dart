@@ -6,6 +6,11 @@ void main(){  // we can omit void, it automatically inferred automatically
   // Check runtime type
   int a = 10;
   print(a.runtimeType); // int
+
+  var name = "Ratndeep";
+  name = "Sonali";
+  // name = 10 as String; // it gives runtime exception
+  print(name);
 }  // {} is the block of the code [Start and End point of section of code]
 
 // variables : It is the given name to the memory location where we can store data,
@@ -21,3 +26,7 @@ void main(){  // we can omit void, it automatically inferred automatically
 // has accessible anywhere in the file or Project
 
 // runtime checks : it is basically pattern to check runtime type
+
+// var : It is type use to define variable when we don't know what the type of value/data is.
+// It inferred data type at compile time based on the assigned data and we cannot reassign the different type of data.
+
