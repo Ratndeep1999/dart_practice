@@ -6,3 +6,5 @@ void main(){  // we can omit void, it automatically inferred automatically
 
 // variables : It is the given name to the memory location where we can store data,
 // we can understand it like it is the name of Container, and inside that container we store some data
+
+// type annotation : It is pattern to define variable <dataType> <variableName>
