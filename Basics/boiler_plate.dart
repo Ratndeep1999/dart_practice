@@ -7,9 +7,17 @@ void main(){  // we can omit void, it automatically inferred automatically
   int a = 10;
   print(a.runtimeType); // int
 
+  // var
   var name = "Ratndeep";
   name = "Sonali";
   // name = 10 as String; // it gives runtime exception
+
+  // dynamic
+  dynamic days = 10;
+  print(days); // 10
+  days = "All Days";
+  print(days); // All Days
+
   print(name);
 }  // {} is the block of the code [Start and End point of section of code]
 
@@ -29,4 +37,7 @@ void main(){  // we can omit void, it automatically inferred automatically
 
 // var : It is type use to define variable when we don't know what the type of value/data is.
 // It inferred data type at compile time based on the assigned data and we cannot reassign the different type of data.
+
+// dynamic : It is type that support all types of data and use to inferred type at runtime
+// we can re-assign the different types of values
 
