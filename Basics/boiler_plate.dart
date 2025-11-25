@@ -58,5 +58,6 @@ void main(){  // we can omit void, it automatically inferred automatically
 
 // late : it insures that the variable is initialize before use if not then return exception at compile time
 
-
-
+// optionally type language : Dart supports both statically and dynamically type language
+// 1. statically type : Means variables can inferred their type at compile-time based on value assigned.
+// 2. dynamically type : It inferred data type at runtime, It supports all types of data
