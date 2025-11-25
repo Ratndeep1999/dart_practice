@@ -26,6 +26,9 @@ void main(){  // we can omit void, it automatically inferred automatically
   final isAdult = true;
   // isAdult = false; // compile time error
 
+  late String DOB;
+  // print(DOB);  // compile time error
+
   print(name);
 }  // {} is the block of the code [Start and End point of section of code]
 
@@ -52,4 +55,8 @@ void main(){  // we can omit void, it automatically inferred automatically
 // Final : use to define constant values at runtime which is assigned at only once
 
 // Const : use to define constant values at compile time and set only once
+
+// late : it insures that the variable is initialize before use if not then return exception at compile time
+
+
 
