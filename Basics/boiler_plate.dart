@@ -18,6 +18,14 @@ void main(){  // we can omit void, it automatically inferred automatically
   days = "All Days";
   print(days); // All Days
 
+  // final
+  final isMarried = false;
+  // isMarried = true; // compile time error
+
+  // const
+  final isAdult = true;
+  // isAdult = false; // compile time error
+
   print(name);
 }  // {} is the block of the code [Start and End point of section of code]
 
@@ -40,4 +48,8 @@ void main(){  // we can omit void, it automatically inferred automatically
 
 // dynamic : It is type that support all types of data and use to inferred type at runtime
 // we can re-assign the different types of values
+
+// Final : use to define constant values at runtime which is assigned at only once
+
+// Const : use to define constant values at compile time and set only once
 
