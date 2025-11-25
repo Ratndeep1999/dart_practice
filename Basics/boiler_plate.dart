@@ -10,3 +10,8 @@ void main(){  // we can omit void, it automatically inferred automatically
 // type annotation : It is pattern to define variable <dataType> <variableName>
 
 // Scope : It defines the accessible area inside the program
+// and there are two types of scope Local and Global
+// 1. Local: A variable that define inside the function or block of the code has accessible
+// only inside that function and block of coed outside that not accessible
+// 2. Global: A variable which is defined outside the function and bloc of code but inside file
+// has accessible anywhere in the file or Project
