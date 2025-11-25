@@ -2,6 +2,10 @@
 // This is main() function means Entry point of the program
 void main(){  // we can omit void, it automatically inferred automatically
   print("Hello World"); // Print statement to print string
+
+  // Check runtime type
+  int a = 10;
+  print(a.runtimeType); // int
 }  // {} is the block of the code [Start and End point of section of code]
 
 // variables : It is the given name to the memory location where we can store data,
@@ -15,3 +19,5 @@ void main(){  // we can omit void, it automatically inferred automatically
 // only inside that function and block of coed outside that not accessible
 // 2. Global: A variable which is defined outside the function and bloc of code but inside file
 // has accessible anywhere in the file or Project
+
+// runtime checks : it is basically pattern to check runtime type
