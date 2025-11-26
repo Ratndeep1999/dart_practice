@@ -24,4 +24,5 @@
 // Syntax : It is kind of format or rule that gives concept to write the code.
 // it is like blue-prints to write codes.
 
+// Compile-time : phase when we write the codes before the execution.
 
