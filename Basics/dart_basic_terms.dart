@@ -28,3 +28,10 @@
 
 // Run-Time : phase when we executing the program
 
+// Difference between compile-time and Run-time :
+
+// Compile-time : phase when dart check the codes before execution.
+// type and syntax error occur at compile-time called as compile time error.
+
+// Run-time : phase when the program executing.
+// logical and exceptions occur at run-time known as run-time error.
