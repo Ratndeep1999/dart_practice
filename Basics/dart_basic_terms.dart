@@ -50,3 +50,4 @@
 // Type-annotation
 // <dataType> <variableName>
 
+// Data-type : use to define what the type of data we are assigning to the variable.
