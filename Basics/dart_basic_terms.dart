@@ -5,3 +5,6 @@
 // Statement : commands that tell computer to do something,
 // it is a lines of codes which is end with semi colon.
 
+// Keywords : reserved words that gives special meaning to the compiler.
+
+
