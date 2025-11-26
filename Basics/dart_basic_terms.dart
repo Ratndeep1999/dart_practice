@@ -21,3 +21,7 @@
 
 // Compiler : Computer program that translate high-level-language into machine-level-language.
 
+// Syntax : It is kind of format or rule that gives concept to write the code.
+// it is like blue-prints to write codes.
+
+
