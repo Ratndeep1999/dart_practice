@@ -51,3 +51,16 @@
 // <dataType> <variableName>
 
 // Data-type : use to define what the type of data we are assigning to the variable.
+
+// Scope : it defines the accessible area of the program.
+// There are two types of Scopes Local and Global.
+
+// Local Scope : variable that define inside particular function or block of the code, and is accessible only
+// inside that function or block of code is known as Local Scope.
+// Scope where variable can be define indide function or block of code is only accessible inside that area.
+
+// Global Scope : variable that define outside any function or block is accessible anywhere in the program
+// or project.
+
+
+
