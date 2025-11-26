@@ -69,5 +69,12 @@
 // inferred type at run-time on the basics of value assigned.
 // any type of value can be re-assigned at compile-time.
 
+// final : use to define constant variables that can be set at once.
+// value must be final at run-time
+
+// const : defines the constant values at compile-time.
+// Value must be inferred before the program executes.
+
+
 
 
