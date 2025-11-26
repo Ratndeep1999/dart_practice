@@ -13,3 +13,7 @@
 // Identifiers : it is the given names by programmer to define variables, methods, classes etc.
 // it must be unique not same as the keywords.
 
+// High-level-lang : Language that is easy to understand and user-friendly,
+// has english like sentences and use to develop software.
+
+
