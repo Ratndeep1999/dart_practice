@@ -19,4 +19,5 @@
 // Low-level-language : Language that is hard to learn and not-user-friendly,
 // deals with computer hardware parts and faster than high level language.
 
+// Compiler : Computer program that translate high-level-language into machine-level-language.
 
