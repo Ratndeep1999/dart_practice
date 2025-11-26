@@ -7,4 +7,6 @@
 
 // Keywords : reserved words that gives special meaning to the compiler.
 
+// Expression : represents the value or something that is count as value,
+// like int, string etc.
 
