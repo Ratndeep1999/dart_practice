@@ -10,3 +10,6 @@
 // Expression : represents the value or something that is count as value,
 // like int, string etc.
 
+// Identifiers : it is the given names by programmer to define variables, methods, classes etc.
+// it must be unique not same as the keywords.
+
