@@ -10,3 +10,19 @@
 //   }
 // }
 
+/// StatefulWidget Boiler Plate
+
+// Static (mutable) class
+// class MyStatefulWidget extends StatefulWidget {
+//   const MyStatefulWidget({super.key});
+//
+//   @override
+//   State<MyStatefulWidget> createState() => MyStatefulWidgetStaet();
+// }
+
+// Immutable class
+// class MyStatefulWidgetState extends State<MyStatefulWidget> {
+//
+//   @override
+//   Widget build(BuildContext context) => Scaffold();
+// }
