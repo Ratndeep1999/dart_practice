@@ -75,6 +75,13 @@
 // const : defines the constant values at compile-time.
 // Value must be inferred before the program executes.
 
+// late : it insures that the variable is initialize/assign before the use other-wise
+// it return compile-time error.
+// also see as the alter version to define null safe variable.
+
+
+
+
 
 
 
