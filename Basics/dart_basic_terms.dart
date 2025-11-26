@@ -16,4 +16,7 @@
 // High-level-lang : Language that is easy to understand and user-friendly,
 // has english like sentences and use to develop software.
 
+// Low-level-language : Language that is hard to learn and not-user-friendly,
+// deals with computer hardware parts and faster than high level language.
+
 
