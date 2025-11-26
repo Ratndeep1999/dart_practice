@@ -62,5 +62,12 @@
 // Global Scope : variable that define outside any function or block is accessible anywhere in the program
 // or project.
 
+// var : use to define variables, that inferred their type at compile-time on the basics of value assigned.
+// can not re-assigned with different type of value.
+
+// dynamic : use to define any type of value.
+// inferred type at run-time on the basics of value assigned.
+// any type of value can be re-assigned at compile-time.
+
 
 
