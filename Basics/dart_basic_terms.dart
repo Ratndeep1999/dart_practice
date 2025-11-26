@@ -35,3 +35,18 @@
 
 // Run-time : phase when the program executing.
 // logical and exceptions occur at run-time known as run-time error.
+
+// variable : It is the given name to the particular location where we store some data.
+// it is like container, inside that we store type of content.
+
+// Rules
+// It can contain alphabet and numbers (alphaNumeric)
+// Must be start with Alphabet or "_"
+// Space is not allowed
+// Case sensitive
+// Only two special char are allowed '$' and '_'
+// Not to same as Keywords. must be unique
+
+// Type-annotation
+// <dataType> <variableName>
+
