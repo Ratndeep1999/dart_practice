@@ -79,7 +79,14 @@
 // it return compile-time error.
 // also see as the alter version to define null safe variable.
 
+// Optionally Type language : Dart supports both statically type and dynamically type language.
 
+// Statically type : when the variable inferred their type at compile-time on the basic of assigned value
+// is known as statically type.
+// Main advantage is that the compiler can quickly check the issue and detect the bug at compile-time.
+
+// Dynamically type : It automatically inferred the data type at run-time.
+// it supports all types of data.
 
 
 
